@@ -1,10 +1,8 @@
 # Waxseal — téléchargements
 
-Gestionnaire de mots de passe local pour Windows. Le coffre reste chiffré sur votre PC, sans compte ni cloud.
+Gestionnaire de mots de passe local pour Windows. Vos mots de passe restent chiffrés sur votre PC, sans compte ni cloud.
 
 **[Télécharger la dernière version](https://github.com/Moon-ItachiDEV/waxseal-releases/releases/latest)** : fichier `Waxseal_X.Y.Z_x64-setup.exe`.
-
-Waxseal est en **alpha** : gardez une copie de vos mots de passe importants ailleurs le temps des premières versions.
 
 ## Installation
 
@@ -16,6 +14,6 @@ Windows SmartScreen peut afficher un avertissement tant que l'installateur n'a p
 
 ## Mises à jour
 
-Waxseal cherche une nouvelle version au démarrage. Chaque mise à jour est signée : l'application refuse un fichier non signé ou une version plus ancienne que celle déjà installée.
+Waxseal cherche une nouvelle version quand vous l'ouvrez, puis toutes les 6 heures, et vous propose de l'installer. Chaque mise à jour est signée : l'application refuse un fichier non signé ou une version plus ancienne que celle déjà installée.
 
-Ce dépôt ne contient que les fichiers publiés (installateur, signature, `latest.json`).
+Ce dépôt ne contient que les fichiers publiés (installateur, signature, empreinte, `latest.json`).
